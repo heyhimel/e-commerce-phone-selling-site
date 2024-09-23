@@ -1,0 +1,1202 @@
+/* google font raleway*/
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+/* google font inter */
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+/* google font noto sans */
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Noto+Sans:ital,wght@0,100..900;1,100..900&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+
+main {
+    background-color: #F5F0ED;
+}
+
+.bg-color {
+    background-color: #F5F0ED;
+}
+
+/* about us */
+/* background image */
+.bg-img {
+    position: relative;
+    width: 100%;
+    height: 589px;
+    background-image: url('images/about us bg.png');
+    /* Replace with your image path */
+    background-size: cover;
+    background-position: center;
+}
+
+.bg-display {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.bg-display-child2 {
+    width: 40%;
+    text-align: center;
+    color: #FFFFFF;
+    font-size: 13.86px;
+    font-weight: 400;
+    /*regular*/
+    font-family: "Inter", sans-serif;
+}
+
+.bg-text-about {
+    color: #FFFFFF;
+    font-size: 38.11px;
+    font-weight: 700;
+    /*bold*/
+    font-family: "Raleway", sans-serif;
+}
+
+/* section wise text */
+.topic-text {
+    font-size: 32px;
+    font-weight: 500;
+    font-family: "Raleway", sans-serif;
+}
+
+.highlight {
+    color: #E8450C;
+    /* color of specific area */
+}
+
+.all-para-text {
+    font-size: 16px;
+    font-weight: 300;
+    /*light*/
+    font-family: "Inter", sans-serif;
+}
+
+/* table */
+table,
+td {
+    border: 2px solid black !important;
+    /* here !important hiding the bootstrpap css effect */
+    border-collapse: collapse;
+}
+
+
+/* another page contact us */
+/* ####################### */
+
+/* contact us form */
+
+.custom-shadow {
+    box-shadow: -4px 5px 5px -5px rgba(0, 0, 0, 0.5), 4px 5px 5px -5px rgba(0, 0, 0, 0.5);
+    border-radius: 5px;
+}
+
+.form-header {
+    font-size: 30px;
+    font-weight: 600;
+    /* semibold */
+    font-family: "Raleway", sans-serif;
+}
+
+.form-descrip {
+    font-size: 16px;
+    font-weight: 400;
+    /*regular*/
+    font-family: "Noto Sans", sans-serif;
+}
+
+.form-label {
+    font-size: 18px;
+    font-weight: 400;
+    /*regular*/
+    font-family: "Inter", sans-serif;
+}
+
+
+.button-position {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #E8450C;
+    border-radius: 4px;
+}
+
+/* contact info */
+.bottom-border {
+    border-bottom: 2px solid #00337C;
+}
+
+.icon-location {
+    position: relative;
+}
+
+.icon-location img {
+    position: absolute;
+    top: 50%;
+    left: 13px;
+    transform: translateY(-40%);
+}
+
+.location-text-type {
+    padding-top: 20px;
+    font-size: 16px;
+    font-weight: 400;
+    /*regular*/
+    font-family: "Inter", sans-serif;
+}
+
+.topic-location-text {
+    padding-top: 35px;
+    font-size: 30px;
+    font-weight: 400;
+    /*regular*/
+    font-family: "Inter", sans-serif;
+}
+
+.image-container {
+    width: 100%;
+    height: 310px;
+}
+
+.image-container img {
+    width: 100%;
+    height: 100%;
+}
+
+/* paragraph section */
+.contact-paragraph {
+    padding-top: 5%;
+    padding-bottom: 2%;
+    width: 74%;
+    text-align: center;
+    color: #000000;
+    font-size: 18px;
+    font-weight: 400;
+    /*regular*/
+    font-family: "Inter", sans-serif;
+}
+
+/* another page email help */
+.icon-gap {
+    padding-left: 8%;
+}
+
+.icon-type {
+    font-size: 100px;
+    color: red
+}
+
+.contact-boxshadow {
+    box-shadow: -1px 2px 4px -2px black;
+}
+
+/* another page */
+/* product details  */
+
+
+/* breadcrumb */
+.nav-style {
+    padding-left: 100px;
+    padding-top: 15px;
+    padding-bottom: 5px;
+
+}
+
+.breadcrumb a {
+    text-decoration: none;
+    color: inherit;
+    font-size: 16px;
+    font-weight: 400;
+    /*regular*/
+    font-family: "Inter", sans-serif;
+}
+
+/* apple iphone 14 pro */
+
+/* image zooming */
+.zoom-container {
+    overflow: hidden;
+}
+
+.zoom-container img {
+    transition: transform 0.5s ease;
+}
+
+.zoom-container img:hover {
+    transform: scale(1.2);
+}
+
+.padding-main-div {
+    padding: 6%;
+}
+
+.padding-div-smliphon {
+    padding-top: 40px;
+}
+
+.section-style {
+    border-radius: 10px;
+    background-color: white;
+}
+
+.iphone-text {
+    font-size: 40px;
+    font-weight: 600;
+    /* semibold */
+    font-family: "Inter", sans-serif;
+}
+
+.iphone-price {
+    font-size: 32px;
+    font-weight: 600;
+    /* semibold */
+    font-family: "Inter", sans-serif;
+    word-spacing: 5px;
+}
+
+.iphone-offer {
+    font-size: 24px;
+    font-weight: 400;
+    /*regular*/
+    font-family: "Inter", sans-serif;
+    color: #808080;
+
+}
+
+/* iphone color */
+.icircle1 {
+    height: 25px;
+    width: 25px;
+    background-color: #000000;
+    border-radius: 50%;
+    display: inline-block;
+}
+
+.icircle2 {
+    height: 25px;
+    width: 25px;
+    background-color: #781DBC;
+    border-radius: 50%;
+    display: inline-block;
+}
+
+.icircle3 {
+    height: 25px;
+    width: 25px;
+    background-color: #E10000;
+    border-radius: 50%;
+    display: inline-block;
+}
+
+.icircle4 {
+    height: 25px;
+    width: 25px;
+    background-color: #E1B000;
+    border-radius: 50%;
+    display: inline-block;
+}
+
+.icircle5 {
+    height: 25px;
+    width: 25px;
+    background-color: #E8E8E8;
+    border-radius: 50%;
+    display: inline-block;
+}
+
+.padding-div {
+    padding-top: 30px;
+}
+
+/* iphone button */
+.iphone-btn {
+    border: 1px solid #BEBCBC;
+    background: none;
+    color: #666666;
+    border-radius: 8px;
+    width: 27%;
+    height: 40px;
+}
+
+.padding-div1 {
+    padding-top: 10px;
+}
+
+.iphone-btn:hover {
+    border: 2px solid #E8450C;
+    color: #000000;
+}
+
+.add-card {
+    border: 2px solid #BEBCBC;
+    background: none;
+    border-radius: 6px;
+    width: 45%;
+    height: 45px;
+}
+
+.buy-now {
+    border: 2px solid #E8450C;
+    background: #E8450C;
+    border-radius: 6px;
+    width: 45%;
+    height: 45px;
+    color: white;
+}
+
+/* description */
+.descp-para {
+    font-size: 15px;
+    font-weight: 400;
+    font-family: "Inter", sans-serif;
+}
+
+.features-style {
+    padding-bottom: 20px;
+    border-bottom: 1px solid rgb(209, 209, 209);
+    font-size: 16px;
+    font-weight: 400;
+    font-family: "Inter", sans-serif;
+}
+
+.features-text {
+    color: #757575;
+    font-size: 14px;
+    font-weight: 400;
+    font-family: "Inter", sans-serif;
+}
+
+
+/* related product */
+.related-div {
+    padding: 3%;
+    /*padding for aligining item inside div from border*/
+    border-radius: 5px;
+    border: 1px solid #E8450C;
+    margin: 10px;
+    /*margin for gap between two div*/
+}
+
+.related-text {
+    font-size: 24px;
+    font-weight: 600;
+    /* semibold */
+    font-family: "Inter", sans-serif;
+}
+
+.button-style {
+    padding-top: 40px;
+    display: flex;
+    justify-content: center;
+}
+
+.button-style button {
+    padding: 8px 40px;
+    border-radius: 7px;
+    border: 1px solid black;
+}
+
+.galaxy-text {
+    font-size: 18px;
+    font-weight: 500;
+    /* medium */
+    font-family: "Inter", sans-serif;
+}
+
+.galaxy-price {
+    font-size: 22px;
+    font-weight: 700;
+    /* bold */
+    font-family: "Inter", sans-serif;
+}
+
+.galaxy-offer {
+    font-size: 14px;
+    font-weight: 400;
+    /*regular*/
+    font-family: "Inter", sans-serif;
+    color: #808080;
+}
+
+.circle1 {
+    height: 18px;
+    width: 18px;
+    background-color: #000573;
+    border-radius: 50%;
+    display: inline-block;
+}
+
+.circle2 {
+    height: 18px;
+    width: 18px;
+    background-color: #E9CFCF;
+    border-radius: 50%;
+    display: inline-block;
+}
+
+.circle3 {
+    height: 18px;
+    width: 18px;
+    background-color: #E8E8E8;
+    border-radius: 50%;
+    display: inline-block;
+}
+
+.circle4 {
+    height: 18px;
+    width: 18px;
+    background-color: #303030;
+    border-radius: 50%;
+    display: inline-block;
+}
+
+.buy-now-btn {
+    border-radius: 20px;
+    background-color: #E8450C;
+    border: none;
+    padding: 5px 30px;
+    font-size: 14px;
+    font-weight: 500;
+    /* medium */
+    font-family: "Inter", sans-serif;
+    color: white;
+}
+
+
+.normal-btn {
+    margin: 0px;
+    border: none;
+    background-color: white;
+    background: none;
+}
+
+
+/* another page 
+shopping cart */
+.card-bottom-border {
+    border-bottom: 2px solid #808080;
+}
+
+.cart-text {
+    font-size: 16px;
+    font-weight: 600;
+    /* semibold */
+    font-family: "Inter", sans-serif;
+}
+
+.cart-id {
+    font-size: 14px;
+    font-weight: 400;
+    font-family: "Inter", sans-serif;
+}
+
+.quantity-items {
+    border: 1px solid #808080;
+    width: 40px;
+    text-align: center;
+    border-radius: 3px;
+}
+
+.cart-price {
+    font-size: 20px;
+    font-weight: 600;
+    /* semibold */
+    font-family: "Inter", sans-serif;
+}
+
+/* checkout */
+.checkout-text {
+    color: #757575;
+}
+
+.checkout-btn-position {
+    padding-top: 35%;
+}
+
+.checkout-btn {
+    width: 100%;
+    border: none;
+    border-radius: 6px;
+    color: white;
+    height: 40px;
+    background-color: #E8450C;
+}
+
+/* another page 
+
+details page */
+.top-div {
+    padding-top: 50px;
+}
+
+
+.name-div {
+    padding-left: 15px;
+    border-radius: 6px;
+    height: 9%;
+    display: flex;
+    align-items: center;
+}
+
+.add-address-btn {
+    border: none;
+    width: 100%;
+    height: 45px;
+    border-radius: 6px;
+    background-color: #292929;
+    color: #FFFFFF;
+}
+
+.back-next-btn {
+    margin: 9px;
+    border: 1px solid #757575;
+    width: 21%;
+    height: 45px;
+    border-radius: 6px;
+    background-color: none;
+}
+
+.back-next-btn:hover {
+    background-color: #E8450C;
+    color: white;
+
+}
+
+/* select address */
+
+.select-address-div {
+    border-radius: 8px;
+
+}
+
+.select-address-text {
+    font-size: 18px;
+    font-weight: 400;
+    /*regular*/
+    font-family: "Inter", sans-serif;
+    color: #17183B;
+}
+
+.select-address-subtext {
+    font-size: 16px;
+    font-weight: 400;
+    /*regular*/
+    font-family: "Inter", sans-serif;
+    color: #17183B;
+}
+
+
+/* another page 
+payment page */
+
+/* summary */
+.summary-div {
+    height: 15%;
+}
+
+.div-margin {
+    margin: 10px;
+    border-radius: 8px;
+}
+
+.address-topic {
+    font-size: 18px;
+    font-weight: 600;
+    /* semibold */
+    font-family: "Inter", sans-serif;
+}
+
+.address-text {
+    font-size: 16px;
+    font-weight: 400;
+    /*regular*/
+    font-family: "Inter", sans-serif;
+    color: #757575;
+}
+
+/* payment */
+.payment-btn {
+
+    background: none;
+    border: none;
+    font-size: 14px;
+    font-weight: 400;
+    /*regular*/
+    font-family: "Inter", sans-serif;
+    color: #757575;
+}
+
+.payment-btn-margin {
+    margin-left: 30px;
+}
+
+.payment-btn:hover {
+    border-bottom: 2px solid black;
+    color: #000000;
+}
+
+.back-next-payment-btn {
+    margin: 9px;
+    border: 1px solid #757575;
+    width: 51%;
+    height: 45px;
+    border-radius: 6px;
+    background: none;
+}
+
+.back-next-payment-btn:hover {
+    background-color: #E8450C;
+    color: white;
+}
+
+/* another page
+homepage */
+.search-bar {
+    border: none;
+    border-radius: 4px;
+    background-color: #F5F0ED;
+    width: 70%;
+    height: 40px;
+}
+
+.search-bar input {
+    border: none;
+    height: 100%;
+    background: none;
+    width: 85%;
+}
+
+.search-bar input::placeholder {
+    padding-left: 5%;
+}
+
+.search-bar button {
+    border: none;
+    background: none;
+}
+
+.search-left {
+    padding-left: 3%;
+    padding-top: 1%;
+}
+
+.header-div {
+    width: 13%;
+}
+
+.header-subtext {
+    font-size: 10px;
+    font-weight: 400;
+    /* reg */
+    font-family: "Inter", sans-serif;
+    color: #8F8F8F;
+}
+
+.phone-type div {
+    padding: 2%;
+    font-size: 20px;
+    font-weight: 400;
+    /* reg */
+    font-family: "Inter", sans-serif;
+}
+
+.phone-type div a {
+    text-decoration: none;
+    color: #8F8F8F;
+}
+
+.phone-bottom-border {
+    border-bottom: 2px solid #E8450C;
+}
+
+.phone-type div a:hover {
+    border-bottom: 2px solid #E8450C;
+    color: #E8450C;
+}
+
+.phone-type-btn {
+    height: 45px;
+    width: 100%;
+    border: none;
+    border-radius: 4px;
+    background-color: #E8450C;
+    color: white;
+}
+
+/* homepage image section */
+.image-postion {
+    position: relative;
+    width: 100%;
+}
+
+.carusol-sec {
+    position: absolute;
+    color: rgb(255, 255, 255);
+    left: 9%;
+    top: 23%;
+    width: 33%;
+    padding: 0.5rem;
+    
+}
+
+.carosel-text-topic{
+    font-size: 44px;
+    font-weight: 700;
+    /* bold */
+    font-family: "Raleway", sans-serif;
+    color: #333333;
+}
+
+.carousel-btn{
+    height: 45px;
+    width: 150px;
+    border: none;
+    border-radius: 4px;
+    background-color: #E8450C;
+    color: white;
+}
+
+/* latest offers */
+.latest-offers{
+    font-size: 40px;
+    font-weight: 600;
+    /* semibold */
+    font-family: "Raleway", sans-serif;
+}
+
+.btn-learn{
+    padding-bottom: 10px;
+    padding-top: 10px;
+    padding-left: 18px;
+    padding-right: 18px;
+    border: 1px solid #E8450C;
+    border-radius: 25px;
+    background: #fff5f5;
+}
+
+.latest-div{
+    position: relative;
+    border: 2px solid #E8450C;
+    border-radius: 6px;
+}
+
+.lattest-div-child1{
+    position: absolute;
+    left: 0%;
+    top: 0%;
+    width: 33%;
+    padding: 0.5rem;
+    border: 1px solid #E8450C;
+    border-radius: 0px 0px 35px 0px;
+    width: 150px;
+    text-align: center;
+    font-size: 12px;
+    font-family:"Inter", sans-serif;
+}
+
+.lattest-div-child2{
+    position: absolute;
+    right: 0%;
+    top: 0%;
+    width: 33%;
+    padding: 0.5rem;
+    background-color: #E8450C;
+    border: 1px solid #E8450C;
+    border-radius: 0px 0px 0px 6px;
+    color: white;
+    width: 100px;
+    text-align: center;
+    font-size: 12px;
+    font-weight: 600;
+    /* semibold */
+    font-family:"Inter", sans-serif;
+}
+
+.lattest-div-child3{
+    position: absolute;
+    right: 0%;
+    top: 0%;
+    width: 33%;
+    padding: 0.5rem;
+    background-color: #fdae92;
+    border-radius: 0px 0px 0px 6px;
+    color: rgb(0, 0, 0);
+    width: 100px;
+    text-align: center;
+    font-size: 12px;
+    font-weight: 600;
+    /* semibold */
+    font-family:"Inter", sans-serif;
+}
+
+.discount-ch2{
+    color: #E8450C;
+    font-size: 18px;
+    font-weight: 600;
+    /* semibold */
+    font-family:"Inter", sans-serif;
+}
+/* featured */
+.feature div{
+    padding: 10px;
+}
+.featured-btn div button{
+    border: 1px solid #E8450C;
+    border-radius: 20px;
+    background: none;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.featured-btn div button:hover{
+    color: white;
+    background-color: #E8450C;
+}
+
+/* collaps */
+.collaps-border{
+    border-bottom: 2px solid #8F8F8F;
+}
+
+.price-box{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 30px;
+    padding-right: 30px;
+    border: 1px solid #BEBCBC;
+    border-radius: 3px;
+}
+
+/* input checkbox */
+/* Hide the default checkbox appearance */
+input[type="checkbox"] {
+    position: absolute;
+    opacity: 0;
+    cursor: pointer;
+  }
+  
+  /* Style for the label (container) */
+  input[type="checkbox"] + label {
+    position: relative;
+    padding-left: 30px; /* Space for the checkbox */
+    cursor: pointer;
+    line-height: 20px; /* Align with the height of the checkbox */
+  }
+  
+  /* Style the checkbox mark */
+  input[type="checkbox"] + label::before {
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 20px;
+    height: 20px;
+    border: 2px solid #7c7c7c; /* Border color */
+    background-color: #fff; /* Default background color */
+    border-radius: 4px; /* Rounded corners */
+    box-sizing: border-box; /* Include border in the size */
+  }
+  
+  /* Style the checkbox when checked */
+  input[type="checkbox"]:checked + label::before {
+    background-color: red; /* Background color when checked */
+    border-color: red; /* Border color when checked */
+  }
+  
+  /* Add a checkmark to the checked state */
+  input[type="checkbox"]:checked + label::after {
+    content: '✔'; /* Checkmark symbol */
+    position: absolute;
+    left: 5px;
+    top: 0;
+    color: white !important;
+    font-size: 12px; /* Checkmark size */
+  }
+
+.input-chkbox form div{
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.input-chkbox form div label{
+    width: 100%;
+    font-size: 15px;
+    font-weight: 500;
+    /*regular*/
+    font-family: "Inter", sans-serif;
+}
+
+/* banner */
+.banner-padding {
+    padding-top: 7%;
+    padding-bottom: 7%;
+}
+
+.banner-div {
+    width: 100%;
+    height: auto;
+}
+
+.banner-div img {
+    width: 100%;
+}
+
+/* footer */
+.section-border {
+    border-top: 1px solid #E8450C;
+}
+
+.footer-margin {
+    margin-top: 5%;
+}
+
+.footer-topic {
+    font-size: 18px;
+    font-weight: 600;
+    /* semibold */
+    font-family: "Raleway", sans-serif;
+}
+
+.footer-link {
+    padding-top: 15px;
+    font-size: 14px;
+    font-weight: 400;
+    /*regular*/
+    font-family: "Inter", sans-serif;
+    color: #292929;
+    text-decoration: none;
+}
+
+.call-location-div {
+    margin-top: 20px;
+    border: 1px solid #666666;
+    border-radius: 35px;
+    height: 60px;
+    width: 250px;
+}
+
+.copy-right {
+    padding-left: 1%;
+    font-size: 12px;
+    font-weight: 400;
+    /*regular*/
+    font-family: "Inter", sans-serif;
+    color: #5C5C5C;
+}
+
+/* support */
+.vertical-line {
+    height: 48px;
+    border-left: 1px solid #292929;
+}
+
+.time-store-loc {
+    padding: 20px;
+    font-size: 12px;
+    font-weight: 400;
+    /* reg */
+    font-family: "Inter", sans-serif;
+}
+
+.support-text {
+    font-size: 16px;
+    font-weight: 600;
+    /* medium */
+    font-family: "Inter", sans-serif;
+}
+
+/* another page personal details page*/
+.white-bg-all {
+    background-color: white;
+    border-radius: 4px;
+}
+
+.name-padding {
+    padding-top: 10px;
+    border-bottom: 2px solid #000000;
+}
+
+.option {
+    padding-left: 20px;
+}
+
+.option-link {
+    text-decoration: none;
+    color: #000000;
+}
+
+.option-link-text {
+    font-size: 20px;
+    font-weight: 400;
+    /* semi */
+    font-family: "Inter", sans-serif;
+}
+
+.link-color {
+    text-decoration: none;
+    color: #E8450C;
+    font-size: 20px;
+    font-weight: 600;
+    /* semi */
+    font-family: "Inter", sans-serif;
+}
+
+.link-padding {
+    margin-left: 5%;
+    padding-top: 8%;
+    border-bottom: 3px solid #D9D9D9;
+    padding-bottom: 5%;
+    width: 85%;
+}
+
+.id-text {
+    color: #757575;
+    font-size: 18px;
+    font-weight: 400;
+    font-family: "Inter", sans-serif;
+
+}
+
+.input-div {
+    border-radius: 6px;
+    background-color: white;
+}
+
+.input-type {
+    padding-left: 3%;
+    border: none;
+    font-size: 16px;
+    font-weight: 400;
+    /*regular*/
+    font-family: "Inter", sans-serif;
+    color: #000000;
+}
+
+/* another page profile order */
+.order-link {
+    text-decoration: none;
+}
+
+.order-bottom-padd {
+    border-bottom: 3px solid #E8450C;
+}
+
+.order-padding {
+    border-bottom: 2px solid #D9D9D9;
+}
+
+.order-circle {
+    background-color: #E8450C;
+    width: 23px;
+    height: auto;
+    color: white;
+    border-radius: 50%;
+}
+
+.order-circle1 {
+    background-color: #FFFFFF;
+    width: 23px;
+    height: auto;
+    color: #757575;
+    border-radius: 50%;
+}
+
+.order-circle-padd {
+    padding-left: 5px;
+}
+
+.order-text {
+    font-size: 20px;
+    font-weight: 300;
+    /*light*/
+    font-family: "Inter", sans-serif;
+    color: #757575;
+}
+
+/* another page order delivery page */
+.table-border th,
+td {
+    padding-left: 3%;
+    border: none !important;
+
+}
+
+.row-space {
+    border-collapse: separate;
+    /* Required to use border-spacing */
+    border-spacing: 0 10px;
+    border-bottom: 2px solid #D9D9D9;
+}
+
+.add-cart-btn {
+    background: none;
+    border-radius: 20px;
+    border: 1px solid #E8450C;
+    padding: 5px 30px;
+    font-size: 14px;
+    font-weight: 500;
+    /* medium */
+    font-family: "Inter", sans-serif;
+    color: #E8450C;
+}
+
+/* another page */
+/* security and access */
+.sec-btn-width {
+    width: 23%;
+}
+
+.noti-div {
+    width: 65%;
+}
+
+.noti-email-text {
+    font-size: 16px;
+    font-weight: 300;
+    /*light*/
+    font-family: "Inter", sans-serif;
+    color: #757575;
+}
+
+.noti-padding {
+    padding-left: 3%;
+}
+
+/* toggle switch button */
+:root {
+    --background-light: #f5f5f7;
+    --toggle-light: #FD632F;
+}
+
+.toggle {
+    position: relative;
+    display: inline-block;
+}
+
+.toggle__input {
+    display: none;
+}
+
+.toggle__label {
+    display: block;
+    width: 60px;
+    height: 30px;
+    background-color: var(--toggle-light);
+    border-radius: 99px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+
+.toggle__input:checked+.toggle__label::after {
+    left: 32px;
+}
+
+.toggle__label::after {
+    content: '';
+    position: absolute;
+    top: 2px;
+    left: 2px;
+    width: 26px;
+    height: 26px;
+    background-color: #ffffff;
+    border-radius: 50%;
+    transition: left 0.3s ease;
+}
