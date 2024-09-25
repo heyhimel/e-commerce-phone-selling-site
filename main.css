@@ -575,13 +575,22 @@ details page */
 }
 
 .select-address-subtext {
-    font-size: 16px;
+    font-size: 12px;
     font-weight: 400;
     /*regular*/
     font-family: "Inter", sans-serif;
     color: #17183B;
 }
 
+@media (max-width:1280px){
+    .select-address-subtext {
+        font-size: 10px;
+        font-weight: 400;
+        /*regular*/
+        font-family: "Inter", sans-serif;
+        color: #17183B;
+    }
+}
 
 /* another page 
 payment page */
@@ -744,6 +753,16 @@ homepage */
     color: #333333;
 }
 
+@media (max-width:1280px) {
+    .carosel-text-topic{
+        font-size: 20px;
+        font-weight: 500;
+        /* bold */
+        font-family: "Raleway", sans-serif;
+        color: #333333;
+    }
+}
+
 .carousel-btn{
     height: 45px;
     width: 150px;
@@ -896,8 +915,8 @@ input[type="checkbox"] {
   
   /* Style the checkbox when checked */
   input[type="checkbox"]:checked + label::before {
-    background-color: red; /* Background color when checked */
-    border-color: red; /* Border color when checked */
+    background-color: #FD632F; /* Background color when checked */
+    border-color: #FD632F; /* Border color when checked */
   }
   
   /* Add a checkmark to the checked state */
@@ -1168,6 +1187,12 @@ td {
 .toggle {
     position: relative;
     display: inline-block;
+}
+
+.toggle input[type="checkbox"]{
+    border: none;
+    background: #FD632F;
+    border-radius: 50%;
 }
 
 .toggle__input {
